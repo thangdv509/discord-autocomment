@@ -18,10 +18,10 @@ sleep(5);
 
 # 3. Fill in information and password
 user = driver.find_element(By.NAME, "email")
-user.send_keys("thang.dv509@gmail.com");
+user.send_keys("");
 
 password = driver.find_element(By.NAME, "password")
-password.send_keys("05092001Thang");
+password.send_keys("");
 
 # 4. Login
 login_button = driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[1]/div[1]/div/div/div/div/form/div[2]/div/div[1]/div[2]/button[2]')
